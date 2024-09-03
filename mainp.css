@@ -1,0 +1,101 @@
+body{
+    background : url('img/rider-1646754_1920.jpg');
+    height : 100%;
+    width : 100%;
+}
+.head{
+    /*margin : 5px;*/
+    /*border:  2px solid green;*/
+}
+
+#leftd{ 
+    display : inline-block;
+}
+
+#midd{
+    display : inline-block;
+    position : absolute;
+    left: 500px;
+}
+
+#rightd{
+    display : inline-block;
+    position : absolute;
+    right : 10px;
+}
+
+.head ul li{
+    display : inline-block;
+    margin : 8px;
+}
+#rightd ul li img{
+    width :30px;
+    height :30px;
+    margin : 5px;
+}
+/*
+#twit:hover{
+    background-color : blue;
+}
+
+#insta:hover{
+    background-color : pink;
+}
+#whats :hover{
+    background-color : green;
+}*/
+
+#midd ul li{
+    padding : 7px;
+    /*border :2px solid green;*/
+    border-radius : 10px;
+}
+
+#midd ul li:hover ,#midd ul #active  {
+    
+  background-color : rgb(46, 141, 224);
+}
+
+#midd ul li a{
+    text-decoration: none;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#leftd img{
+    width :100px;
+    height :100px;
+}
+
+#secdiv{
+    /*border : 5px solid green;*/
+    position : absolute;
+    top : 50%;
+    padding :5px;
+    
+}
+.second{
+    /*border : 5px solid green;*/
+    margin : 20px;
+    display : inline-block;
+    width : 29%;
+    height: 500px;
+}
+.second img{
+    width : 90%;
+    align-items: center;
+    margin : 5px;
+    border: 10px solid white;
+    border-radius: 10px;
+}
+.second p{
+    font-family:'Ubuntu Condensed', sans-serif;
+    font-weight:bold;
+    font-size: 25px;
+    color: aliceblue;
+    text-align: center;
+    background-color: black;
+    border-radius: 7px;
+}
